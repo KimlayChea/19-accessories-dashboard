@@ -16,8 +16,8 @@ export const LoginForm = () => {
   const { toast } = useToast();
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
-    email: "admin@gmail.com",
-    password: "12345678",
+    email: "",
+    password: "",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
