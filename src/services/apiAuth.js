@@ -6,7 +6,7 @@ export async function signup({ fullName, email, password }) {
     email,
     password,
     options: {
-      emailRedirectTo: "http://localhost:8080/", // ✅ This sets {{ .RedirectTo }} in the email
+      emailRedirectTo: "https://19-accessories-dashboard.vercel.app/", // ✅ This sets {{ .RedirectTo }} in the email
       data: {
         fullName,
         avatar: "",
