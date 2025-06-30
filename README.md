@@ -71,4 +71,30 @@ Make sure you have the following installed:
 
 Clone the repository and navigate to the project directory:
 ```bash
-git clone https://github.com/KimlayChea/19-Accessories && cd 19-Accessories
+git clone https://github.com/KimlayChea/19-Accessories
+```
+
+---
+
+### Install the dependencies:
+```bash
+npm install
+```
+
+## ▶️ Usage
+## Start the development server:
+```bash
+npm run dev
+```
+
+## This will launch Vite on your local server, usually at:
+```bash
+[npm run dev](http://localhost:5173)
+```
+
+## Build for production:
+```bash
+npm run build
+```
+
+
