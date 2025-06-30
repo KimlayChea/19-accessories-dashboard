@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+# 19-ACCESSORIES  
+**Elevate Style · Simplify Life · Unleash Confidence**
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/1a96c638-91b2-4d46-afdb-9a710597a372
+## 🔧 Built with the Tools and Technologies
 
-## How can I edit this code?
+- React  
+- TypeScript  
+- Vite  
+- Tailwind CSS  
+- ShadCN/UI  
+- Lucide Icons  
+- Zod  
+- Supabase  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📑 Table of Contents
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1a96c638-91b2-4d46-afdb-9a710597a372) and start prompting.
+- [📖 Overview](#-overview)  
+- [🚀 Getting Started](#-getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [📦 Installation](#-installation)  
+  - [▶️ Usage](#️-usage)  
+- [🧪 Testing](#-testing)  
+- [🪪 License](#-license)
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📖 Overview
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**19-Accessories** is a versatile developer toolkit that provides a structured architecture, styling conventions, and a rich library of accessible UI components for building scalable web applications.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+It integrates React, TypeScript, Vite, Tailwind CSS, and various utility libraries to streamline development and ensure consistency across projects.
 
-Follow these steps:
+### 🔍 Why 19-Accessories?
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+This project aims to simplify frontend development with a focus on **maintainability** and **scalability**.  
+Key features include:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **🎨 Component Architecture & Styling**  
+  Establishes consistent UI patterns with schema validation, Tailwind CSS configs, and path aliases.
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **⚙️ Reusable UI Components**  
+  A comprehensive suite of accessible, customizable components for navigation, forms, feedback, and more.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- **🔗 API & Data Management**  
+  Seamless integrations with backend services for products, categories, user authentication, messaging, and settings.
 
-**Edit a file directly in GitHub**
+- **🚀 Developer Experience**  
+  Includes Vite dev server, environment configs, ESLint, and utility functions to boost productivity.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **📱 Responsive & Accessible**  
+  Hooks and components designed for device responsiveness and inclusive user interfaces.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🚀 Getting Started
 
-## What technologies are used for this project?
+### Prerequisites
 
-This project is built with:
+Make sure you have the following installed:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- [Node.js](https://nodejs.org/)  
+- [npm](https://www.npmjs.com/)  
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/1a96c638-91b2-4d46-afdb-9a710597a372) and click on Share -> Publish.
+### 📦 Installation
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Clone the repository and navigate to the project directory:
+```bash
+git clone https://github.com/KimlayChea/19-Accessories && cd 19-Accessories
