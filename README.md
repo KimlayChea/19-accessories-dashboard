@@ -1,18 +1,22 @@
-# 19-ACCESSORIES  
-**Elevate Style · Simplify Life · Unleash Confidence**
+# 19-ACCESSORIES Dashboard  
+**Manage with Ease · Control with Power · Build with Confidence**
+
+![Last Commit](https://img.shields.io/github/last-commit/KimlayChea/19-accessories-dashboard)
+![TypeScript](https://img.shields.io/github/languages/top/KimlayChea/19-accessories-dashboard?color=blue)
+![License](https://img.shields.io/github/license/KimlayChea/19-accessories-dashboard)
 
 ---
 
-## 🔧 Built with the Tools and Technologies
+## 🔧 Built With
 
-- React  
-- TypeScript  
-- Vite  
-- Tailwind CSS  
-- ShadCN/UI  
-- Lucide Icons  
-- Zod  
-- Supabase  
+- **React** – Component-based UI development  
+- **TypeScript** – Static typing for safer, scalable code  
+- **Vite** – Lightning-fast dev/build tool  
+- **Tailwind CSS** – Utility-first CSS framework  
+- **ShadCN/UI** – Accessible component system  
+- **Lucide Icons** – Modern icon set  
+- **Supabase** – Authentication, database, and RLS  
+- **Zod** – Schema validation  
 
 ---
 
@@ -30,29 +34,29 @@
 
 ## 📖 Overview
 
-**19-Accessories** is a versatile developer toolkit that provides a structured architecture, styling conventions, and a rich library of accessible UI components for building scalable web applications.
+**19-ACCESSORIES Dashboard** is the administration panel for managing users, templates, messages, products, and more.
 
-It integrates React, TypeScript, Vite, Tailwind CSS, and various utility libraries to streamline development and ensure consistency across projects.
+Designed for speed and scalability, it provides a responsive and accessible UI powered by modern frontend tools and secured with Supabase Row-Level Security (RLS).
 
-### 🔍 Why 19-Accessories?
+### ✨ Key Features
 
-This project aims to simplify frontend development with a focus on **maintainability** and **scalability**.  
-Key features include:
+- **👤 Admin Role-Based Access**  
+  Authenticate via Supabase JWT and restrict access based on custom `dashboard_admin` role in `user_metadata`.
 
-- **🎨 Component Architecture & Styling**  
-  Establishes consistent UI patterns with schema validation, Tailwind CSS configs, and path aliases.
+- **🧩 Template Management**  
+  Create, edit, and categorize reusable templates easily.
 
-- **⚙️ Reusable UI Components**  
-  A comprehensive suite of accessible, customizable components for navigation, forms, feedback, and more.
+- **📦 Product & Category Control**  
+  Manage product details, images, and associated categories.
 
-- **🔗 API & Data Management**  
-  Seamless integrations with backend services for products, categories, user authentication, messaging, and settings.
+- **💬 Message Center**  
+  View and respond to customer messages securely and efficiently.
 
-- **🚀 Developer Experience**  
-  Includes Vite dev server, environment configs, ESLint, and utility functions to boost productivity.
+- **📊 Dashboard Analytics**  
+  (Planned) Visualize usage, performance, and key metrics at a glance.
 
-- **📱 Responsive & Accessible**  
-  Hooks and components designed for device responsiveness and inclusive user interfaces.
+- **📱 Responsive Design**  
+  Fully functional across desktops, tablets, and mobile devices.
 
 ---
 
@@ -60,7 +64,7 @@ Key features include:
 
 ### Prerequisites
 
-Make sure you have the following installed:
+Make sure the following are installed:
 
 - [Node.js](https://nodejs.org/)  
 - [npm](https://www.npmjs.com/)  
@@ -71,10 +75,14 @@ Make sure you have the following installed:
 
 Clone the repository and navigate to the project directory:
 ```bash
-git clone https://github.com/KimlayChea/19-Accessories
+git clone https://github.com/KimlayChea/19-accessories-dashboard
 ```
 
 ---
+## Navigation to the project :
+```bash
+cd 19-accessories-dashboard
+```
 
 ### Install the dependencies:
 ```bash
